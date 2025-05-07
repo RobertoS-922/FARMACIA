@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atención al Cliente</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <header class="bg-purple-700 text-white p-4 shadow">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Atención al Cliente</h1>
+      <a href="index.html" class="bg-white text-purple-700 px-3 py-1 rounded font-medium hover:underline">Volver</a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <form id="form-clientes" class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+      <input type="text" id="nombre-cliente" placeholder="Nombre del cliente" class="p-2 border rounded" required />
+      <input type="text" id="consulta-cliente" placeholder="Consulta o solicitud" class="p-2 border rounded" required />
+      <button type="submit" class="bg-purple-600 text-white px-4 py-2 rounded">Registrar</button>
+    </form>
+
+    <ul id="lista-clientes" class="bg-white p-4 rounded shadow space-y-2">
+      <!-- Las consultas se mostrarán aquí -->
+    </ul>
+  </main>
+
+  <script src="script/clientes.js"></script>
+</body>
+</html>
