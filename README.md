@@ -1,0 +1,1 @@
+En la pagina de la farmacia tenemos obviamente la pagina principal, el cual tiene tres ventanas de inventario, ventas y atencion al cliente y esos tres me dan la temática de agregar las cosas como un crud, puedo agregar y eliminar.
